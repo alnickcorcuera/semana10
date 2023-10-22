@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="cabecera">
+      <div class="logo">
+        <img src="imagenes/logo.png" alt="" srcset="" />
+      </div>
+      <div class="nombre">Mascotas en Adopción</div>
+      <form action="index.html" method="post">
+        <button class="regresar" type="submit">Regresar</button>
+      </form>
+    </div>
+
+    <div class="image-list">
+      <div class="image-item" onclick="mostrarImagen('Boby')">
+        <img src="imagenes/perro1.png" alt="Imagen 1" />
+      </div>
+      <div class="image-item" onclick="mostrarImagen('Astro')">
+        <img src="imagenes/perro2.png" alt="Imagen 2" />
+      </div>
+      <div class="image-item" onclick="mostrarImagen('Chato')">
+        <img src="imagenes/perro3.png" alt="Imagen 3" />
+      </div>
+      <div class="image-item" onclick="mostrarImagen('Sofia y Arturo')">
+        <img src="imagenes/perro4.png" alt="Imagen 4" />
+      </div>
+      <div class="image-item" onclick="mostrarImagen('Doky')">
+        <img src="imagenes/perro5.png" alt="Imagen 5" />
+      </div>
+      <div class="image-item" onclick="mostrarImagen('Poncho')">
+        <img src="imagenes/perro6.png" alt="Imagen 6" />
+      </div>
+    </div>
+
+    <script>
+      function mostrarImagen(url) {
+        alert("Hola mi nombre es " + url);
+      }
+    </script>
+  </body>
+</html>

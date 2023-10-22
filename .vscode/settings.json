@@ -1,0 +1,21 @@
+{
+  "editor.accessibilitySupport": "auto",
+  "editor.autoClosingDelete": "auto",
+  "editor.autoIndent": "full",
+  "editor.comments.ignoreEmptyLines": true,
+  "editor.comments.insertSpace": true,
+  "editor.defaultFoldingRangeProvider": null,
+  "editor.dragAndDrop": true,
+  "editor.dropIntoEditor.enabled": true,
+  "editor.dropIntoEditor.showDropSelector": "afterDrop",
+  "editor.folding": true,
+  "editor.foldingHighlight": true,
+  "editor.foldingImportsByDefault": false,
+  "editor.foldingStrategy": "auto",
+  "editor.insertSpaces": true,
+  "editor.showUnused": false,
+  "editor.snippets.codeActions.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.useTabStops": true
+}
